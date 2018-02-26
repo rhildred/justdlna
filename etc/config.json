@@ -1,8 +1,32 @@
 {
-    "content": { "virtual" : {
-        "folders" : [
-            { "last-added" : { "format" : "video" } },
-            { "last-viewed" : { "format" : "video" } }
-        ]}
+    "content": {
+        "virtual": {
+            "folders": [
+                {
+                    "folder": {
+                        "title": "music",
+                        "path": "/Users/rhildred/Public/music",
+                        "format": "audio"
+                    }
+                },
+                {
+                    "folder": {
+                        "title": "movies",
+                        "path": "/Users/rhildred/Public/Movies",
+                        "format": "video"
+                    }
+                },
+                {
+                    "last-added": {
+                        "format": "video"
+                    }
+                },
+                {
+                    "last-viewed": {
+                        "format": "video"
+                    }
+                }
+            ]
+        }
     }
 }

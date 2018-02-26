@@ -6,6 +6,8 @@ import org.teleal.cling.support.model.item.Item;
 
 public enum AudioFormat implements MediaFormat {
     MP3("mp3", "audio/mpeg"),
+    FLAC("flac", "audio/flac"),
+    M4A("m4a", "audio/mp4"),
     OGG("ogg", "audio/ogg");
 
     private final String ext;
